@@ -208,7 +208,7 @@ _coverpage.md
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 ```
 # 查看源码
-如果你需要源码，可以在我的github上下载或查看 yangpan-docsify
+如果你需要源码，可以在我的github上下载或查看 [yangpan-docsify](https://github.com/yangpan4037/yangpan-docsify)
 
 # 参考文档
 [docsify中文文档](https://docsify.js.org/#/zh-cn/?id=docsify)
