@@ -207,8 +207,25 @@ _coverpage.md
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 ```
+
+# 部署文档
+和 GitBook 生成的文档一样，我们可以直接把文档网站部署到 GitHub Pages 或者 VPS 上。
+
+## GitHub Pages
+GitHub Pages 支持从三个地方读取文件
+
+- docs/ 目录
+- master 分支
+- gh-pages 分支
+
+我们推荐直接将文档放在 ```docs/``` 目录下，在设置页面开启 GitHub Pages 功能并选择 ```master branch /docs folder``` 选项。
+![](https://docsify.js.org/_images/deploy-github-pages.png)
+
 # 查看源码
-如果你需要源码，可以在我的github上下载或查看 yangpan-docsify
+如果你需要源码，可以在我的github上下载或查看 [yangpan-docsify]()
+
+# 查看示例
+你可以通过GitHub进行部署，部署后可以直接查看，[github部署后效果](https://yangpan4037.github.io/yangpan-docsify/#/)
 
 # 参考文档
 [docsify中文文档](https://docsify.js.org/#/zh-cn/?id=docsify)
