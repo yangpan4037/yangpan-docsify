@@ -41,7 +41,7 @@ docsify init ./docs
 ## 本地预览网站
 运行一个本地服务器通过 ```docsify serve``` 可以方便的预览效果，而且提供 LiveReload 功能，可以让实时的预览。默认访问 [http://localhost:3000](http://localhost:3000) 。
 ```bash
-ocsify serve docs
+docsify serve docs
 ```
 # 多页文档
 ## 定制侧边栏
@@ -211,7 +211,7 @@ _coverpage.md
 # 部署文档
 和 GitBook 生成的文档一样，我们可以直接把文档网站部署到 GitHub Pages 或者 VPS 上。
 
-## GitHub Pages
+## GitHubPages
 GitHub Pages 支持从三个地方读取文件
 
 - docs/ 目录
